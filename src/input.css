@@ -17,3 +17,9 @@
     @apply font-roboto;
   }
 }
+
+@layer components{
+  .color-selector input:checked + label{
+    @apply ring-2 ring-primary;
+  }
+}
